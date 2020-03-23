@@ -32,8 +32,6 @@ def find_greater_pair(src)
     
     if first_num < src[row_index][1]
       new_src << src[row_index][1]
-    elsif first_num == src[row_index][1]
-      new_src
     else
       new_src << first_num
     end 
